@@ -13,6 +13,7 @@ return new class extends Migration
             $table->string('title');
             $table->text('content');
             $table->boolean('is_archived')->default(false);
+            $table->boolean('is_pinned')->default(false);
             $table->timestamps();
         });
     }

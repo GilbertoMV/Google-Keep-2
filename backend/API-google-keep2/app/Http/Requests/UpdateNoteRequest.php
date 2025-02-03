@@ -16,6 +16,7 @@ class UpdateNoteRequest extends FormRequest
         return [
             'title'   => 'sometimes|string|max:255',
             'content' => 'sometimes|string',
+            'is_pinned' => 'sometimes|boolean',
         ];
     }
 
