@@ -1,6 +1,6 @@
 # Quasar App (app-google-keep2)
 
-Prueba tecnica
+A Quasar Project
 
 ## Install the dependencies
 ```bash
@@ -22,19 +22,10 @@ yarn lint
 npm run lint
 ```
 
-
-### Format the files
-```bash
-yarn format
-# or
-npm run format
-```
-
-
 ### Build the app for production
 ```bash
 quasar build
 ```
 
 ### Customize the configuration
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
+See [Configuring quasar.conf.js](https://v1.quasar.dev/quasar-cli/quasar-conf-js).
