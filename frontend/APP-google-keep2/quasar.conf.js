@@ -22,7 +22,7 @@ module.exports = function (/* ctx */) {
     // --> boot files are part of "main.js"
     // https://v1.quasar.dev/quasar-cli/boot-files
     boot: [
-      
+
       'axios',
     ],
 
@@ -84,7 +84,13 @@ module.exports = function (/* ctx */) {
     framework: {
       iconSet: 'material-icons', // Quasar icon set
       lang: 'en-us', // Quasar language pack
-      config: {},
+      config: {
+        dark:true,
+        // brand: {
+        //   primary: '#202124', // Color primario (puedes poner tu código hex)
+        //   secondary: '#e8eaed', // Color secundario
+        // }
+      },
 
       // Possible values for "importStrategy":
       // * 'auto' - (DEFAULT) Auto-import needed Quasar components & directives

@@ -1,15 +1,23 @@
 <template>
-  <q-page class="flex flex-center">
-    <img
-      alt="Quasar logo"
-      src="~assets/quasar-logo-vertical.svg"
-      style="width: 200px; height: 200px"
-    >
+  <q-page padding>
+    <new-note />
+    <section class="q-ma-md row items-start q-gutter-md">
+      <card />
+      <card />
+      <card />
+      <card />
+      <card />
+      <card />
+      <card />
+      <card />
+    </section>
   </q-page>
 </template>
-
 <script>
+import NewNote from "src/components/NewNote.vue";
+import Card from "src/components/Card.vue";
 export default {
-  name: 'PageIndex'
-}
+  components: { NewNote, Card },
+  name: "PageIndex",
+};
 </script>

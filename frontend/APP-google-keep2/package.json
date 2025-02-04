@@ -2,7 +2,7 @@
   "name": "app-google-keep2",
   "version": "0.0.1",
   "description": "A Quasar Project",
-  "productName": "Quasar App",
+  "productName": "Google Keep clone",
   "author": "GilbertoMV <gvalenzuela@ucol.mx>",
   "private": true,
   "scripts": {
